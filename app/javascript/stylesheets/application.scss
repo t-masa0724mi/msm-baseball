@@ -1,4 +1,6 @@
 @import "layouts/navbar";
 @import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
 @import "common";
 @import "users/devise";
+@import "users/show";
