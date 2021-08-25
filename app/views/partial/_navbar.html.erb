@@ -13,7 +13,7 @@
         <%= link_to "メッセージ", "#" %>
       </li> 
       <li>
-        <%= link_to "名前", "#" %>
+        <%= link_to current_user.name, "/users/#{current_user.id}" %>
       </li>
     </ul>
   </nav>
