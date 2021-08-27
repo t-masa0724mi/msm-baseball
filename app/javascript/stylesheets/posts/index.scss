@@ -1,0 +1,102 @@
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  .tweet-card {
+    max-width: 600px;
+    width: 100%;
+    margin: 10px auto;
+    .card-header {
+      text-align: center;
+      font-weight: bold;
+    }
+    .card-body {
+      .tweet-body {
+        display: flex;
+        .form-control {
+          margin: 0 0 10px 10px;
+          font-size: 14px;
+          line-height: 20px;
+          padding: 8px;
+        }
+        textarea::placeholder {
+          color: #8E9BA7;
+        }
+      }
+      .buttons {
+        display: flex;
+        justify-content: flex-end;
+        .tweet-btn {
+          border-radius: 100px;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+    .stream-item {
+      padding: 12px;
+      .content {
+        min-height: 53px;
+        .stream-item-header {
+          display: flex;
+          height: 20px;
+          .user-profile-link {
+            display: inline-flex;
+            .username {
+              font-size: 14px;
+              color: #657786;
+              text-decoration: none;
+              margin-left: 10px;
+            }
+          }
+          .time {
+            color: #657786;
+            font-size: 14px;
+          }
+        }
+      }
+      .tweet-text {
+        margin-left: 58px;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+.post-card {
+  max-width: 600px;
+  width: 100%;
+  margin: 10px auto;
+  .card {
+    border: none;
+    border-bottom: 1px solid #e6ecf0;
+    border-radius: 0;
+    .stream-item {
+      padding: 12px;
+      .content {
+        min-height: 53px;
+        .stream-item-header {
+          display: flex;
+          height: 20px;
+          .user-profile-link {
+            display: inline-flex;
+            .username {
+              font-size: 14px;
+              color: #657786;
+              text-decoration: none;
+              margin-left: 10px;
+            }
+          }
+          .time {
+            color: #657786;
+            font-size: 14px;
+          }
+        }
+      }
+      .post-text {
+        margin-left: 58px;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}

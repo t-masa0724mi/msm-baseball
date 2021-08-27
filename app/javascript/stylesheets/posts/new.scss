@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  .post-card {
+    max-width: 600px;
+    width: 100%;
+    margin: 10px auto;
+    .card-header {
+      text-align: center;
+      font-weight: bold;
+    }
+    .card-body {
+      .post-body {
+        display: flex;
+        .form-control {
+          margin: 0 0 10px 10px;
+          font-size: 14px;
+          line-height: 20px;
+          padding: 8px;
+        }
+        textarea::placeholder {
+          color: #8E9BA7;
+        }
+      }
+      .buttons {
+        display: flex;
+        justify-content: flex-end;
+        .post-btn {
+          border-radius: 100px;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

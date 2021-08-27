@@ -8,6 +8,8 @@ class User < ApplicationRecord
 
   mount_uploader :profile_image, ProfileImageUploader
 
+  has_many :posts, dependent: :destroy
+
   def update_without_current_password(params, *options)
 
     if params[:password].blank? && params[:password_confirmation].blank?
