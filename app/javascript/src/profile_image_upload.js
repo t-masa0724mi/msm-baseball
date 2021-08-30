@@ -1,4 +1,5 @@
-$(document).on("change", "#profile_image_upload", function(e) {
+// $(document).on("change", "#profile_image_upload", function(e) {
+window.addEventListener('change', function(){
   if (e.target.files.length) {
     let reader = new FileReader;
     reader.onload = function(e) {
